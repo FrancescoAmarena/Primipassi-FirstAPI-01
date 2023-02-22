@@ -25,19 +25,19 @@ public class Main {
             ps=connection.prepareStatement(query);
             ps.execute();
 
-            String students1 = "INSERT INTO`newdb`.`students` (`last_name`,`first_name`) VALUES ('Francesco','Amarena')";
+            String students1 = "INSERT INTO`newdb`.`students` (`first_name`,`last_name`) VALUES ('Francesco','Amarena')";
             ps=connection.prepareStatement(students1);
             ps.execute();
 
-            String students2 = "INSERT INTO`newdb`.`students` (`last_name`,`first_name`) VALUES ('Antonio','Rossi')";
+            String students2 = "INSERT INTO`newdb`.`students` (`first_name`,`last_name`) VALUES ('Antonio','Rossi')";
             ps=connection.prepareStatement(students2);
             ps.execute();
 
-            String students3 = "INSERT INTO`newdb`.`students` (`last_name`,`first_name`) VALUES ('Michele','Patanella')";
+            String students3 = "INSERT INTO`newdb`.`students` (`first_name`,`last_name`) VALUES ('Michele','Patanella')";
             ps=connection.prepareStatement(students3);
             ps.execute();
 
-            String students4 = "INSERT INTO`newdb`.`students` (`last_name`,`first_name`) VALUES ('Ernesto','Navazio')";
+            String students4 = "INSERT INTO`newdb`.`students` (`first_name`,`last_name`) VALUES ('Ernesto','Navazio')";
             ps=connection.prepareStatement(students4);
             ps.execute();
 
